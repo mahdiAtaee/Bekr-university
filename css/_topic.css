@@ -1,0 +1,23 @@
+.topic-section{
+    margin-top: 150px;
+    background-color: #ffa500;
+    height: 250px;
+}
+.topic-title img{
+    width: 42px;
+    height: 42px;
+    margin: 40px;
+}
+.topic-title .count{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.topic-title .count-title{
+    font-size: 26px;
+}
+@media screen and (max-width:768px) {
+    .topic-section{
+        height: auto;
+    }
+}

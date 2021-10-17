@@ -1,0 +1,37 @@
+.container-fluid-custom{
+    background-color: rgb(1,1, 131);
+    color: #fff;
+    height: 40px;
+}
+.container .contact i{
+    margin: 10px;
+    vertical-align: -10px;
+    color: rgb(235, 72, 8);
+}
+.container .contact{
+    overflow: hidden;
+}
+.social-media{
+    direction: ltr;
+    font-size: 20px;
+    padding: 8px;
+}
+.social-media a{
+    color: #fff;
+    transition: 0.5s;
+}
+.social-media a:hover:nth-child(1){
+    color: rgb(0, 191, 255);
+}
+.social-media a:hover:nth-child(2){
+    color: rgb(255, 0, 98);
+}
+.social-media a:hover:nth-child(3){
+    color: rgb(0, 191, 255);
+}
+.social-media a:hover:nth-child(4){
+    color: rgb(0, 68, 255);
+}
+.social-media a:hover:nth-child(5){
+    color: rgb(0, 255, 213);
+}

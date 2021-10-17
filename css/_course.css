@@ -1,0 +1,81 @@
+.title{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.title span::after{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    top: 12px;
+    left: -37px;
+}
+.title span::before{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    top: 12px;
+    right: -37px;
+}
+.card{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card-header{
+    min-height: 220px;
+}
+.card-header img{
+    min-height: 220px;
+    
+}
+.img-responsive-custom{
+    width: 99%;
+}
+.card-body{
+    margin-top: 10px;
+}
+.card-body .icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.course-title{
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+.course-title a{
+    color: black;
+    font-size: 14px;
+}
+.course-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.card:hover .course-overlay{
+    opacity: 1;
+}
+.course-overlay p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+@media screen and (max-width:768px){
+    .card{
+        width: 90%;
+    }
+}

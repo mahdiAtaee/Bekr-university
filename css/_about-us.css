@@ -1,0 +1,32 @@
+.about-us-right-side{
+    margin-top: 30px;
+    background-color: #d1cdcd;
+}
+.about-us-right-side h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    color: #383737;
+    padding-top: 20px;
+}
+.about-us-right-side p{
+    padding: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #484747;
+}
+.about-us-right-side a{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: orange;
+    font-size: 18px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s ease-in;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:768px){
+    .about-us-left-side{
+        display: none;
+    }
+}
