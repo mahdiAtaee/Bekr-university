@@ -8,8 +8,14 @@
     vertical-align: -10px;
     color: rgb(235, 72, 8);
 }
+.container .contact span{
+    margin-right: 2px;
+    margin-left: 2px;
+    color: rgb(235, 72, 8);
+}
 .container .contact{
     overflow: hidden;
+    padding-top: 10px;
 }
 .social-media{
     direction: ltr;

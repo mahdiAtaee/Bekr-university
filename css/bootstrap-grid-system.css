@@ -178,6 +178,9 @@
     .md-hidden{
         display: none;
     }
+    .md-visible{
+        display: inline-block;
+    }
     .col-md-1{
         width: 8.33%;
     }
